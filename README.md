@@ -40,3 +40,36 @@ Follow my journey:
 [`day2.cpp`](./src/day2.cpp)
 
 ---
+
+🚦 Day 3: Traffic Light System
+Simulated a traffic light using three LEDs—classic red, yellow, and green—with timed sequences for real-world feel.
+
+🔧 Components
+Arduino Uno
+
+Red LED (x1)
+
+Yellow LED (x1)
+
+Green LED (x1)
+
+220Ω Resistors (x3)
+
+Breadboard + jumper wires
+
+⚡ Pin Connections
+
+LED	Arduino Pin
+Red	8
+Yellow	9
+Green	10
+🧠 Logic
+
+Yellow LED turns on for 2 seconds (Caution)
+
+Red LED turns on for 5 seconds (Stop)
+
+Green LED turns on for 5 seconds (Go)
+
+
+Cycle repeats forever
