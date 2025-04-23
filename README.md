@@ -73,3 +73,31 @@ Green LED turns on for 5 seconds (Go)
 
 
 Cycle repeats forever
+
+
+DAY 4: Fading LED with PWM
+Today’s vibe: smooth transitions. No more digital stiffness—just analog energy using Pulse Width Modulation (PWM). We made the LED breathe.
+
+🔧 Components Used
+Arduino Uno
+
+1 x LED
+
+1 x 220Ω resistor
+
+Breadboard + jumper wires
+
+⚙️ Circuit Connections
+
+Component	Arduino Pin
+LED (+)	D9 (PWM)
+LED (–)	GND (via 220Ω resistor)
+⚠️ Important: Make sure to use a PWM-capable pin (D3, D5, D6, D9, D10, or D11 on Uno).
+
+🧠 How It Works
+PWM (Pulse Width Modulation) lets us simulate analog voltage using fast on-off pulses.
+
+The LED’s brightness is controlled by the duty cycle—how long it stays ON vs OFF.
+
+We ramp brightness up to 255 (full glow), then fade it back down to 0 (off), like a soft breath.
+
