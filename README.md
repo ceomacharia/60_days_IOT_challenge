@@ -101,3 +101,36 @@ The LED’s brightness is controlled by the duty cycle—how long it stays ON vs
 
 We ramp brightness up to 255 (full glow), then fade it back down to 0 (off), like a soft breath.
 
+
+🎵 Day 5: Buzzer Sound + Tone Control
+Today, the silence broke. The circuit spoke.
+No more blinking—we gave the board a voice.
+Using a passive piezo buzzer, we tapped into sound, rhythm, and pure vibe.
+
+🔧 Components Used
+Arduino Uno
+
+1 x Passive piezo buzzer
+
+1 x 100Ω resistor (optional)
+
+Breadboard + jumper wires
+
+⚙️ Circuit Wiring
+
+Component	Arduino Pin
+Buzzer (+)	D8
+Buzzer (–)	GND
+Passive buzzers need frequency input to make sound—so we control the pitch using tone().
+
+🧠 What I Learned
+Using tone() to generate specific frequencies (Hz = pitch)
+
+Turning digital signals into audio output
+
+How noTone() stops sound
+
+Basic sequencing = building blocks of a melody
+
+You can literally make your Arduino sing in accents 🎤
+
