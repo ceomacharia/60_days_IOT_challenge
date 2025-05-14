@@ -134,3 +134,26 @@ Basic sequencing = building blocks of a melody
 
 You can literally make your Arduino sing in accents 🎤
 
+# 🚀 Day 6 – Ultrasonic Distance Sensor + LED
+
+This project uses an HC-SR04 ultrasonic sensor to detect the distance of nearby objects. Based on the proximity, different colored LEDs light up.
+
+## 🎯 What It Does
+- Calculates distance using sound waves
+- Turns on:
+  - 🔴 Red LED & buzzer for danger (<10cm)
+  - 🟡 Yellow LED for caution (10–20cm)
+  - 🟢 Green LED for safe (>20cm)
+
+## 🧩 Components
+- Arduino Uno
+- HC-SR04 Ultrasonic Sensor
+- Red, Yellow, Green LEDs
+- 220Ω resistors
+- Jumper wires & Breadboard
+
+## 🧠 Concepts Covered
+- Ultrasonic sensing
+- Conditional logic
+- Real-time visual feedback
+
